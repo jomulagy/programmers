@@ -1,7 +1,7 @@
 def solution(participant, completion):
     answer = ''
     n_cpt = {}
-    for man in completion:
+    for man in participant:
         n_cpt[man]=0
     for man in completion:
         n_cpt[man]+=1
